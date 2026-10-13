@@ -1,0 +1,73 @@
+/* ===== Selector TAG ===== */
+body {
+    margin: 0;
+    padding: 40px 20px;
+    background-color: #F4F5FA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Nunito', sans-serif; /* font untuk isi/teks */
+    color: #333333;
+}
+
+p {
+    line-height: 1.6;
+}
+
+img {
+    display: block;
+}
+
+/* ===== Selector CLASS ===== */
+.judul {
+    font-family: 'Poppins', sans-serif; /* font berbeda untuk judul */
+    font-weight: 700;
+    color: #6C63FF;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.kartu {
+    background-color: #FFFFFF;
+    width: 320px;
+
+    /* Box model: padding & margin */
+    padding: 32px 24px;
+    margin: 0 auto;
+
+    /* Border dengan sudut membulat */
+    border: 2px solid #6C63FF;
+    border-radius: 16px;
+
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.foto {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%; /* foto profil bulat */
+    border: 3px solid #6C63FF;
+    margin: 0 auto 20px auto;
+}
+
+.info {
+    font-size: 15px;
+    color: #555555;
+    margin: 4px 0;
+}
+
+.deskripsi {
+    margin-top: 18px;
+    font-size: 14px;
+    color: #444444;
+    text-align: left;
+}
+
+/* ===== Selector ID ===== */
+#nama {
+    font-family: 'Poppins', sans-serif; /* judul nama pakai font judul juga */
+    color: #2E2A6B;
+    margin: 8px 0 12px 0;
+}
